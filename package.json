@@ -9,5 +9,9 @@
     "build": "parcel build src/index.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^3.0.2"
+  }
 }
