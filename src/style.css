@@ -1,1 +1,48 @@
 @import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+  font-size: 1.5vh;
+}
+
+:is(h1, li:nth-child(2n)) {
+  font-weight: bold;
+}
+
+:is(header, ul, nav, div) {
+  background: #279989;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  list-style: none;
+  padding: 0.5em;
+  text-align: center;
+  height: 100%;
+}
+
+nav {
+  display: -webkit-flex;
+}
+
+ul {
+  display: -webkit-flex;
+}
+
+li {
+  padding: 0.5em;
+}
+
+div {
+  background: #44a080;
+  font-size: 14px;
+}
+
+i {
+  font-size: 150%;
+  padding-left: 2%;
+}
