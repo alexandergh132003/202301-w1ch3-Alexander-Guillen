@@ -6,6 +6,7 @@ body {
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
   font-size: 1.5vh;
+  background: #ffc845;
 }
 
 :is(h1, li:nth-child(2n)) {
@@ -37,12 +38,49 @@ li {
   padding: 0.5em;
 }
 
-div {
+main > div:first-of-type {
   background: #44a080;
   font-size: 14px;
 }
 
 i {
-  font-size: 150%;
+  font-size: 175%;
   padding-left: 2%;
+}
+
+div.transparent {
+  background: transparent;
+  color: black;
+}
+
+div.items_block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+input {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+#prices {
+  font-size: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.transparent > * {
+  background: transparent;
+  color: black;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 250%;
+  margin-bottom: 10%;
 }
